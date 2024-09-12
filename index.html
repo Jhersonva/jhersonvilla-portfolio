@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jherson Villa - BACKEND DEV</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Icon Programador-->
+    <link rel="icon" type="image/x-icon" href="/favicon/icon_programador.png">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modal/modal_styles.css">
+    
+</head>
+<body>
+    
+
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">Jherson</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+     <!-- SECCION INICIO -->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/img-inicio/imagen-perfil.jpg" alt="perfil-Jherson">
+            </div>
+            <h1>JHERSON VILLA</h1>
+            <h2 style="color: #1CB698;"><b>SOFTWARE ENGINEER | BACKEND</b></h2>
+            <h2>JAVA WEB DEV</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/Jherson.V.A.OFICIAL?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/Jhersonva" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/926461654" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/jherson-villa-arcibia-01660b252/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:jherson2408va@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jherson Villa.</span> Soy un desarrollador backend dedicado con una sólida base en Java y Spring Boot. Con pasión por crear aplicaciones web eficientes y escalables, me esfuerzo continuamente por mejorar mis habilidades y conocimientos en el campo.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento:</strong>
+                            24/08/2003
+                        </li>
+                        <li>
+                            <strong>Celular:</strong>
+                            926461654
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            jherson2408va@gmail.com
+                        </li>
+                        <li>
+                            <strong>País:</strong>
+                            Perú
+                        </li>
+                        <li>
+                            <strong>Formación Academica:</strong>
+                            Senati
+                        </li>
+                        <li>
+                            <strong>Especialización:</strong>
+                            Oracle Next Educatión
+                        </li>
+                        <li>
+                            <strong>Experiencia:</strong>
+                            1 año
+                        </li>
+                        <li>
+                            <strong>Disponibilidad para viajar:</strong>
+                            Si 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                            <span>PASANTE</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="dowlnload_cv/CV_Jherson_Villa_Arcibia.pdf" style="text-decoration: none;" download="CV_Jherson_Villa_Arcibia.pdf">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+            <a href="https://app.aluracursos.com/user/jherson2408va/fullCertificate/a9cae80230e1b7e68f14ff9ce93fbc30?fbclid=IwY2xjawE8knRleHRuA2FlbQIxMAABHby2B81r-MgCgQtqBhQQtZBqursI6KA1vpKw0N-Bd6OKOtuLZnPosM_wCw_aem_sbtUzJ7zwbG5ZPCn6iNqug" target="_blank" style="text-decoration: none;">
+                <button>
+                    Ver Certificado <i class="fa-solid fa-certificate"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2>Skills</h2>
+            <span>Completé mi especialización como desarrollador Backend en Alura como parte del programa Oracle Next Education y tambien conclui mi carrera de Ingenieria de Software en Senati, a lo largo de este camino perfeccione mis siguientes habilidades</span>
+            <div class="skills">
+                <button class="button"> JAVA
+                </button>
+                <button class="button"> SPRING BOOT
+                </button>
+                <button class="button"> GIT HUB
+                </button>
+                <button class="button"> GIT
+                </button>
+                <button class="button"> SPRING SECURITY
+                </button>
+                <button class="button"> JWT
+                </button>
+                <button class="button"> SQL
+                </button>
+                <button class="button"> MYSQL
+                </button>
+                <button class="button"> POSTGRESQL
+                </button>
+                <button class="button"> POSTMAN
+                </button>
+                <button class="button"> INSOMNIA
+                </button>
+                <button class="button"> BOOTSTRAP
+                </button>
+                <button class="button"> UI.VERSE
+                </button>
+                <button class="button"> HTML
+                </button>
+                <button class="button"> CSS
+                </button>
+                <button class="button"> LOMBOK
+                </button>
+                <button class="button"> APIREST
+                </button>
+                <button class="button"> MAVEN
+                </button>
+                <button class="button"> SPRING JPA
+                </button>
+                <button class="button"> HIBERNATE
+                </button>
+                <button class="button"> VSCODE
+                </button>
+                <button class="button"> INTELLIJ IDEA
+                </button>
+                <button class="button"> ARQUITECTURA HEXAGONAL  
+                </button>
+                <button class="button"> MVC
+                </button>
+                <button class="button"> POO
+                </button>
+                <button class="button">DIAGRAMAS UML ESTRUCTURALES
+                </button>
+            </div>
+            <img src="img/img-skills/coding-programmer.png" style="width: 30%; height: 30%;" alt="imagen-coffe">
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de Software</h4>
+                        <span class="casa">Instituto Tecnologico Senati</span>
+                        <span class="fecha">2020 - 2023</span>
+                        <p>Hice mi carrera tecnica de la carrera de Ingenieria de Software donde aplique
+                            amplios conocimientos como matematicos, desarrollo personal, 
+                            programacion web, móvil, base de datos e IA, entre otros.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>BD relacionales MySQL y PostgreSQL:</h4>
+                        <span class="casa">Oracle Next Educatión</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>Aprendi lo que es la base de datos relacionales con conceptos basicos a intermedios con el lenguaje de consulta SQL</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Java POO y Spring Framework:</h4>
+                        <span class="casa">Oracle Next Educatión</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Aprendi el lenguaje Java con la POO y una introduccion a Spring Framework e hicimos una conexión a una base de datos y proyectos CRUD</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>APIREST con Spring Boot</h4>
+                        <span class="casa">Oracle Next Educatión</span>
+                        <span  sclass="fecha">2023 - 2024</span>
+                        <p>Aprendi a cosumir apis y a crear APIREST con Spring Boot, como tambien proyectos FullStack</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Desktop Application Programmer</h4>
+                        <span class="casa">CIGE PERÚ</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>En la empresa CIGE PERÚ estuve como practicante donde realice una actualizacion del 
+                            sistema propio de la empresa, que se dedica a llevar un control de sus clientes como
+                            facturas y da asistencia a servicios informáticos, donde puse a prueba mi logica 
+                            para implementar nuevas funcionalidades a esa aplicación de escritorio.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>FullStack Developer</h4>
+                        <span class="casa">BIT INFORMATIC GROUP</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>En la empresa BIT INFORMATIC GROUP estuve como practicante donde realice un sistema web
+                            completo, para un Restaurante donde se tendria que llevar, control del almacen, control 
+                            de los empleados(admin, cocinero, mesero), calculo de la ganancia diaria, seguimiendo de los pedidos y realizar informes, 
+                            y aplique mis conocimiento de FrontEnd y BackEnd para la creacion de este sistema FullStack.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>FullStack Developer</h4>
+                        <span class="casa">Cactus Pro</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>En la empresa Cactus Pro estuve como practicante donde realice un sistema web completo,
+                        que se basa en llevar un control de las actividades y desempeño del personal, donde se puede calificar
+                        la actividad asignada, control del personal , informe de los usuarios(supervisor, empleado, practicante) y actividades,
+                        este sistema tambien fue valido para los practicantes de la empresa ya que permite llevar
+                        el paso a paso de lo que se realiza con la actividad asigna por el admin del sistema y aplique
+                        mis conocimiento de FrontEnd y BackEnd.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/img-experience/img-screenmatch-frases.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Screen Match : Phrase-Generator</h3>
+                        <p>FullStack</p>
+                        <button class="btn-visualizar" data-toggle="modal" data-target="#modal1">Visualizar</button>
+                        <a href="https://github.com/Jhersonva/Screen-Match-Phrase-Generator-FullStack.git" target="_blank" class="btn-github">GitHub</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img-experience/img-film-manager.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Film-Management</h3>
+                        <p>FullStack</p>
+                        <button class="btn-visualizar" data-toggle="modal" data-target="#modal2">Visualizar</button>
+                        <a href="https://github.com/Jhersonva/Film-Management-FullStack.git" target="_blank" class="btn-github">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form name="formulario-contacto" method="POST" netlify>
+                        <input type="text" name="name" placeholder="Nombre: " required>
+                        <input type="email" name="email" placeholder="Email:" required>
+                        <input type="tel" name="tel" id="tel" placeholder="Número de celular:">
+                        <input type="text" name="text" placeholder="Tema:">
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje:"></textarea>
+                        <button type="submit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                        <br>
+                    </form>
+                </div>
+            <div class="col">
+                <div class="contenedor-img">
+                    <img src="img/img-skills/coffe.png" alt="perfil-Jherson">
+                </div>
+
+                <div class="info" >
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Ubicación: <br>
+                            Perú - Huancayo
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            Llamame: <br>
+                            926 461 654
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: jherson2408va@gmail.com
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/Jherson.V.A.OFICIAL?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/Jhersonva" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://wa.me/926461654" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/jherson-villa-arcibia-01660b252/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:jherson2408va@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <p>&copy; 2024 Jherson Villa A. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="modales"></div>
+
+    <!-- Bootstrap JS and dependencies -->
+     <script src="/script.js"></script>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    $(function() {
+        $("#modales").load("modal/modal.html");
+    });
+    </script>
+</body>
+</html>
