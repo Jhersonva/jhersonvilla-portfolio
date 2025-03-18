@@ -14,9 +14,8 @@ Bienvenido a mi portafolio personal. Este sitio web fue creado para mostrar mis 
 ## 🔑 Funcionalidades Principales
 - **Diseño Responsivo**: La página se adapta a cualquier dispositivo, desde pantallas grandes hasta smartphones.
 - **Animaciones Interactivas**: Efectos sutiles que mejoran la experiencia de usuario sin sobrecargar el sitio.
-- **Formulario de Contacto**: Permite que los usuarios me envíen mensajes de manera directa.
+- **Videos e Imagenes**: Permite ver mis proyectos y mostrar mi experiencia.
 - **Habilidades**: Representación visual de mis habilidades técnicas.
-- **Manejo de Formularios con Netlify**: Los formularios están integrados con Netlify para asegurar envíos seguros y eficientes.
 
 ## 🌍 Despliegue
 El sitio está alojado en Netlify para asegurar una experiencia rápida y fiable. Puedes acceder a mi portafolio visitando este enlace:
