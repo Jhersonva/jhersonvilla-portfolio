@@ -1,8 +1,8 @@
 # 💼 Portafolio Personal - Jherson VA
 
-**Enlace del sitio web:** [https://jhersonva-backend-dev.netlify.app/](https://jhersonva-backend-dev.netlify.app/)
+**Enlace del sitio web:** [https://jhersonva-dev.netlify.app/](https://jhersonva-dev.netlify.app/)
 
-Bienvenido a mi portafolio personal. Este sitio web fue creado para mostrar mis habilidades como **Desarrollador Backend Java Junior**. Aquí podrás encontrar información sobre mis proyectos, habilidades técnicas y formas de contactarme.
+Bienvenido a mi portafolio personal. Este sitio web fue creado para mostrar mis habilidades como **Desarrollador FullStack**. Aquí podrás encontrar información sobre mis proyectos, habilidades técnicas y formas de contactarme.
 
 ## 🚀 Tecnologías Utilizadas
 - **HTML5**: Para la estructura del contenido.
@@ -20,7 +20,7 @@ Bienvenido a mi portafolio personal. Este sitio web fue creado para mostrar mis 
 ## 🌍 Despliegue
 El sitio está alojado en Netlify para asegurar una experiencia rápida y fiable. Puedes acceder a mi portafolio visitando este enlace:
 
-https://jhersonva-backend-dev.netlify.app/
+https://jhersonva-dev.netlify.app/
 
 ## 📧 Contacto
 Si deseas ponerte en contacto conmigo, puedes usar el formulario en la página de contacto o enviarme un correo a través del mismo.
