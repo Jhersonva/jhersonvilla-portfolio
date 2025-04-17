@@ -7,3 +7,6 @@ function seleccionar() {
     const nav = document.getElementById('nav');
     nav.classList.remove('show');
 }
+
+//Actualizacion de año actual
+document.getElementById("year").textContent = new Date().getFullYear();
